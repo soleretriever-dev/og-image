@@ -51,8 +51,12 @@ function getCss(theme: string, fontSize: string) {
         font-size: 100px;
     }
 
+    .small-spacer {
+        margin: 80px;
+    }
+
     .spacer {
-        margin: 150px;
+        margin: 125px;
     }
     
     .heading {
@@ -76,7 +80,7 @@ export function getHtml(parsedReq: ParsedRequest) {
     </style>
     <body>
         <div>
-            <div class="spacer">
+            <div class="small-spacer">
             <div class="heading">${emojify(
                 md ? marked(text) : sanitizeHtml(text)
             )}

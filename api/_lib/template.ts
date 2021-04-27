@@ -42,13 +42,9 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .logo {
-        margin: 0 75px;
-    }
-
-    .plus {
-        color: #BBB;
-        font-family: Times New Roman, Verdana;
-        font-size: 100px;
+        margin: 0 50px;
+        min-height: 525px;
+        width: auto;
     }
 
     .small-spacer {
@@ -96,7 +92,7 @@ export function getHtml(parsedReq: ParsedRequest) {
 </html>`;
 }
 
-function getImage(src: string, width ='700', height = '500') {
+function getImage(src: string, width ='875', height = '625') {
     return `<img
         class="logo"
         alt="Generated Image"

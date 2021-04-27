@@ -58,8 +58,5 @@ function getDefaultImages(images: string[], theme: Theme): string[] {
     if (!images || !images[0]) {
         return [defaultImage];
     }
-    if (!images[0].startsWith('https://soleretriever.s3.amazonaws.com/')) {
-        images[0] = defaultImage;
-    }
     return images;
 }

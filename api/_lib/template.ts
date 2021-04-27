@@ -48,11 +48,11 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .small-spacer {
-        margin: 80px;
+        margin: 72px;
     }
 
     .spacer {
-        margin: 125px;
+        margin: 72px;
     }
     
     .heading {

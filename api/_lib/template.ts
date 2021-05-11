@@ -43,6 +43,10 @@ function getCss() {
     .spacer {
         margin: 72px;
     }
+
+    .shoe {
+        margin-top: 32px;
+    }
     
     .heading {
         font-family: 'GT America Expanded Bold', sans-serif;
